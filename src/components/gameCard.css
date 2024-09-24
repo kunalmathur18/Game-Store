@@ -1,0 +1,107 @@
+/* .gameCard{
+    box-shadow: -5px -5px rgba(255,255,255,0.15),
+    5px 5px 15px rgba(0,0,0,0.35);
+}con
+.gameCard .likes.active {
+    color: red
+}
+.gameCard span{
+    color: #ffff;
+}
+.gameCard .gameTitle {
+    font-family: "Bauhaus 93 V2";
+}
+.gameCard .addBag{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #ffff;
+    background: var(--secondary);
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0 20px 0;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+.gameCard .addBag:hover{
+    background: var(--primary);
+} */
+
+
+
+
+.gameCard {
+    /* box-shadow: -5px -5px rgba(255,255,255,0.15), 5px 5px 15px rgba(0,0,0,0.35); */
+    background: rgba(40, 35, 35, 0.25);
+border-radius: 16px;
+box-shadow: -5px -5px 10px rgba(251, 251, 251, 0.784),
+5px 5px 15px rgba(96, 65, 65, 0.35);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+}
+
+.gameCard .likes {
+    color: #fff; /* Default color */
+    
+}
+
+/* Change to red when active */
+.gameCard .likes.active {
+    color: red !important;
+}
+
+.gameCard span {
+    color: #fff;
+}
+
+.gameCard .gameTitle {
+    font-family: "Bauhaus 93 V2";
+}
+
+.gameCard .addBag {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    background: var(--secondary);
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0 20px 0;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.gameCard .addBag:hover {
+    background: var(--primary);
+}
+/* Notification styles */
+.notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    z-index: 9999;
+    opacity: 0.9;
+    animation: fadeinout 3s ease-in-out;
+}
+
+/* Animation for fade in/out effect */
+@keyframes fadeinout {
+    0% { opacity: 0; }
+    10% { opacity: 0.9; }
+    90% { opacity: 0.9; }
+    100% { opacity: 0; }
+}

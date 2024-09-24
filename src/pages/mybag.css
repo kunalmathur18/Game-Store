@@ -1,0 +1,31 @@
+.shopBagTable{
+    /* box-shadow: -5px -5px rgba(255,255,255,0.15),
+    5px 5px 15px rgba(0,0,0,0.35); */
+    box-shadow: -5px -5px 10px rgba(251, 251, 251, 0.784),
+                5px 5px 15px rgba(96, 65, 65, 0.35);
+                background: rgba(40, 35, 35, 0.25);
+border-radius: 16px;
+/* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+box-shadow: -5px -5px 10px rgba(251, 251, 251, 0.784),
+                5px 5px 15px rgba(96, 65, 65, 0.35);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+
+}
+.shopBagTable thead tr{
+    font-size: 1.3rem;
+}
+.shopBagTable thead tr th{
+    background: transparent;
+    color: white;
+
+}
+.shopBagTable thead{
+    background: rgba(40, 35, 35, 0.25);
+    border-radius: 16px;
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    box-shadow: -5px -5px 10px rgba(251, 251, 251, 0.784),
+                5px 5px 15px rgba(96, 65, 65, 0.35);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+}
