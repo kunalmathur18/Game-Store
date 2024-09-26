@@ -1,37 +1,3 @@
-// import React,{useState} from 'react'
-// import './SideMenu.css';
-// import navListData from '../data/navListData';
-// // import "./NavlistItem"
-// import NavlistItem from './NavlistItem';
-
-// function SideMenu({active}) {
-//     const [navData,setNavData]=useState(navListData)
-//   return (
-//     <div className={`sidemenu ${active ? 'active' : undefined}`}>
-//         <a href="#" className='logo'>
-//         <i className="bi bi-controller"></i>
-//             <span className='brand'> Game</span>
-//         </a>
-//         <ul className='nav'>
-//             {
-//                 navData.map(item => (
-//                     <NavlistItem key={item._id} item={item} />
-
-//                 ))
-//             }
-            
-            
-
-//         </ul>
-      
-//     </div>
-//   )
-// }
-
-// export default SideMenu
-
-
-
 
 import React, { useState } from 'react';
 import './SideMenu.css';
