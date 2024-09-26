@@ -6,6 +6,7 @@ function MyLibrary({games,reference}) {
    <section id='library' className='library' ref={reference} >
    <div className="container">
     <div className="row mb-3">
+      <h3 className='text-[2rem] display-2'>Library</h3>
 
     </div>
     <div className="row">

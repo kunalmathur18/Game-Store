@@ -55,7 +55,7 @@ function SideMenu({ active,sectionActive }) {
     return (
         <div className={`sidemenu ${active ? 'active' : ''}`}>
             <a href="#" className='logo'>
-                <i className="bi bi-controller"></i>
+                <i className="bi bi-controller text-[rgb(114 200 195)]"></i>
                 <span className='brand'>Game</span>
             </a>
             <ul className='nav'>

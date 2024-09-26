@@ -3,6 +3,7 @@
     5px 5px 15px rgba(0,0,0,0.35); */
     box-shadow: -5px -5px 10px rgba(251, 251, 251, 0.784),
                 5px 5px 15px rgba(96, 65, 65, 0.35);
+    background-color: #7795e0;
 }
 .filters li{
     /* text-white py-[10px] px-[25px] transition-[0.3s] rounded-[10px] uppercase cursor-pointer */
